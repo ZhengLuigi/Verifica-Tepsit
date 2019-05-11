@@ -16,6 +16,8 @@ public class TestRet {
 		r.ricerca(34);
 		
 		
+		r.RimREtt(55);
+		
 
 	}
 

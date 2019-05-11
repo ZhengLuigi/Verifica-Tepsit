@@ -1,6 +1,7 @@
 
 public class Rettangoli {
 
+	
 	private Rettangolo rett[];
 	static private int Nmax=1000;
 	
@@ -58,6 +59,18 @@ public class Rettangoli {
 			{
 				rett[i]=null;
 				break;
+			}
+		}
+		
+	}
+	//stampare lato piu lungo,non ha specificato quale 
+	public	void baselungo(){
+		
+		for(int i=0; i<Nmax;i++)
+		{
+			if(rett[i].getBase()>rett[i+1].getBase())
+			{
+				rett[i].getBase() = rett[i+1].get
 			}
 		}
 		
